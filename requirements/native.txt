@@ -1,0 +1,4 @@
+-r client.txt
+jsonlines==4.0.0
+nltk==3.10.3
+rouge-score==0.1.2

@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teamstepps-mas"
+version = "0.1.0"
+description = "TeamSTEPPS-inspired communication protocols for medical multi-agent reasoning"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28.1,<0.29", "jsonschema>=4.23,<5"]
+
+[project.optional-dependencies]
+native = ["jsonlines==4.0.0", "nltk==3.10.3", "rouge-score==0.1.2"]
+
+[project.scripts]
+teamstepps-mas = "teamstepps_mas.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+teamstepps_mas = ["prompts/*.json"]
+
+[project.urls]
+Repository = "https://github.com/zywgngc/TeamSTEPPS_MAS"

@@ -1,0 +1,7 @@
+{
+  "MedAgents": {
+    "url": "https://github.com/gersteinlab/MedAgents.git",
+    "commit": "aaeff0499e169b41faf810cbca59504e3ee2788c",
+    "required_files": ["utils.py", "data_utils.py", "prompt_generator.py"]
+  }
+}

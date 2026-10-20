@@ -1,0 +1,3 @@
+# Reference Linux NVIDIA serving environment, installed separately from the client.
+# Choose the PyTorch/CUDA wheel combination appropriate for the server driver.
+vllm==0.24.0

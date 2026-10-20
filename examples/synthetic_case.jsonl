@@ -1,0 +1,1 @@
+{"id":"synthetic:arithmetic","dataset":"synthetic","question":"This is an artificial arithmetic example, not a patient case. A hypothetical group has 20 events among 500 observations. Which offered expression is the event proportion?","context":["Use only the supplied counts; the time horizon is unspecified."],"options":{"A":"4%","B":"40%","C":"20%"}}

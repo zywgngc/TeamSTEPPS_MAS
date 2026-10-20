@@ -1,0 +1,108 @@
+{
+  "purpose": "Core-code extraction and package migration, without experimental records or results.",
+  "controller_version": "V16 candidate",
+  "extracted_symbols_and_files": [
+    {
+      "source_file": "src/task_team_contracts_v16.py",
+      "destination": "src/teamstepps_mas/contracts.py",
+      "source_file_sha256": "247a61a7a76fe9fe8964bd3477c64a12ec2ccec00dc7760d3889041c33fabff2"
+    },
+    {
+      "source_file": "src/task_team_exchange_v16.py",
+      "destination": "src/teamstepps_mas/exchange.py",
+      "source_file_sha256": "74586d725462dd13150196687f20db5a6fc01d3bcfd9e2fc28861b9a63ec07c6"
+    },
+    {
+      "source_file": "configs/task_team_skill_v16_candidate.json",
+      "destination": "src/teamstepps_mas/prompts/default.json",
+      "source_file_sha256": "72d5b61d19656dfd54ae23bae983088ef419ce45ed0ecdb82eed5c5655783084"
+    },
+    {
+      "source_file": "src/task_team_v16.py",
+      "destination": "src/teamstepps_mas/protocol.py",
+      "TaskTeam_AST_unchanged": true,
+      "source_file_sha256": "855dcea60e4d36e5f975d67d1e0e1d9fd7e30a1bf753d9a6678081d0e927104e",
+      "changes": "Package-relative imports and packaged prompt path; native wrapper imports local upstream module."
+    },
+    {
+      "source_file": "src/runtime.py",
+      "symbol": "dumps",
+      "source_file_sha256": "551b6ef940ec1b937980af7538ffa026e4e5124b83ee6b47a05356c858178dcd",
+      "symbol_AST_sha256": "37fa3be3e75b18cc4633332aadc21fee55f5b1a7f881f7a2d0f101768e888cb8"
+    },
+    {
+      "source_file": "src/runtime.py",
+      "symbol": "public_case",
+      "source_file_sha256": "551b6ef940ec1b937980af7538ffa026e4e5124b83ee6b47a05356c858178dcd",
+      "symbol_AST_sha256": "8474ddd1f99c87a05efa0097e436d2add47e6d55e1a6c0bd79b6f878d59533ae"
+    },
+    {
+      "source_file": "src/runtime.py",
+      "symbol": "normalize_label",
+      "source_file_sha256": "551b6ef940ec1b937980af7538ffa026e4e5124b83ee6b47a05356c858178dcd",
+      "symbol_AST_sha256": "a832b483c6479d0859e81878c8b3fb55700a722aaf67e9b439da1dd84236b8d3"
+    },
+    {
+      "source_file": "src/runtime.py",
+      "symbol": "extract_final_choice",
+      "source_file_sha256": "551b6ef940ec1b937980af7538ffa026e4e5124b83ee6b47a05356c858178dcd",
+      "symbol_AST_sha256": "b4f98c0fd834c4f978ddfd7ca7522c759387fe4ef6335668bda66c6169944e91"
+    },
+    {
+      "source_file": "src/runtime.py",
+      "symbol": "TracedClient",
+      "source_file_sha256": "551b6ef940ec1b937980af7538ffa026e4e5124b83ee6b47a05356c858178dcd",
+      "symbol_AST_sha256": "ca105d663d00f924f92f8a98298d7a3922d9b5edae313b649380b736a8b6c69c"
+    },
+    {
+      "source_file": "src/revision_final_parser_v5.py",
+      "symbol": "final_choice",
+      "source_file_sha256": "964afd0aa90f9abce931dd781e1de16362701ed146a8bb46adf052b180a39565",
+      "symbol_AST_sha256": "e10be50587c228f14746ce20d5c5815616a81c444c202cb0f7e5dea9eea30aac"
+    },
+    {
+      "source_file": "src/revision_final_parser_v8.py",
+      "symbol": "unwrap_quotes",
+      "source_file_sha256": "cc82c9dea3dfd4b92318b9e7580d7271cddae5e9793e4e0e2e956053743c4ed2",
+      "symbol_AST_sha256": "50c7b75ec81f92b103ddbbea8675a083f792e64a54732d94a2f3cdd0d5aff070"
+    },
+    {
+      "source_file": "src/revision_final_parser_v8.py",
+      "symbol": "final_choice",
+      "source_file_sha256": "cc82c9dea3dfd4b92318b9e7580d7271cddae5e9793e4e0e2e956053743c4ed2",
+      "symbol_AST_sha256": "39dddceb2ffbbb297002e1c9b5adae495d1ef0b9677959c5322658b4849d1b14"
+    },
+    {
+      "source_file": "src/native_report_codec_v9.py",
+      "symbol": "physical_schema",
+      "source_file_sha256": "9754d55e51ab4943ba3cb70161337efe6f2877c8865e0f7a80ac2d825eaf0936",
+      "symbol_AST_sha256": "7f4e92d91f068a12bb73c048e2290e0c534a9f52351044d409dc0a8e40199e95"
+    },
+    {
+      "source_file": "src/revision_baselines_v3.py",
+      "symbol": "GrammarBoundary",
+      "source_file_sha256": "883fb99cd9f06a6d962f8261e1944f8c5ca0a544481ba17a94e4b08bc8c03f4e",
+      "symbol_AST_sha256": "0b9e2eef11f29589464db869958c355c9dcfe4dea48d6eabb4331e42e2e71bcf"
+    },
+    {
+      "source_file": "src/baselines.py",
+      "symbol": "medagents",
+      "source_file_sha256": "e2a2e22956b55664c39ded42510d675fd6d490902e5aad39601803d88dfb88e7",
+      "symbol_AST_sha256": "43cd69b484a3c79c17cc9fa94ce22941d2f159ce9f9fbedeb994560e57f7d92b"
+    },
+    {
+      "source_file": "src/task_team_v15.py",
+      "symbol": "run_native_reference",
+      "source_file_sha256": "d297ce3c7ea64c63bd24b5ef7790e4492817a50072f9337450767c8875dcc4dc",
+      "symbol_AST_sha256": "820c0d22ea0f84b68f93779c8697ddd684c53fef9e51e34c5ba0c22e1a8790ac"
+    }
+  ],
+  "packaging_changes": [
+    "Package-relative imports and packaged prompt JSON replace machine-specific paths and historical import chains.",
+    "Schema compiler URL is configurable through SCHEMA_COMPILER_URL.",
+    "Unused legacy TracedClient.json syntax-repair helper is not exported.",
+    "HTTP failure records additionally retain the original response status and body.",
+    "New sequential development CLI preserves pending positions on HTTP backend failure.",
+    "Synthetic engineering scenarios ported without historical data or run artifacts."
+  ]
+}
